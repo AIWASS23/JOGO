@@ -21,8 +21,8 @@ let paper = Item(name: "Paper", winner: "Rock", loser: "Scissors")
 let scissors = Item(name: "Scissors", winner: "Paper", loser: "Rock")
 let possibleMoves = [rock, paper, scissors]
 
-print("Rock\nPaper\nScissors\n")
-print("Enter 0 for rock, 1 for paper or 2 for scissors")
+print("🪨 Rock\n 📝 Paper\n ✂️ Scissors\n")
+print("Enter 0 for 🪨 rock, 1 for 📝 paper or 2 for ✂️ scissors")
 
 var validNumberBetweenZeroAndTwo = false
 
@@ -47,7 +47,7 @@ while !validNumberBetweenZeroAndTwo {
                 
             print("\nRESULT.....")
             print(userItem.checkVictory(contra: cpuItem.name))
-            print("Enter 0 for rock, 1 for paper or 2 for scissors")
+            print("Enter 0 for 🪨 rock, 1 for 📝 paper or 2 for ✂️ scissors")
         }
     }
 }
