@@ -13,29 +13,31 @@
 
 ## Documentação da API
 
-    Language used: Swift
+    Linguagen Usada: Swift
 
-    Library used: Foundation 
+    Biblioteca Usada: Foundation 
 
-    Data inputs: 0 (rock), 1 (paper), 2 (scissors)
-
-    Data outputs: 0 (rock), 1 (paper), 2 (scissors)
-
-    Variables and Structures:
-
-    `   struct Item composed of 3 let Strings(name, winner, loser) and a checkVictory function that notifies who won.
+    Dados de Entrada: 0 (rock) 🪨, 1 (paper) 📝, 2 (scissors) ✂️
+    Dados de Saída: 0 (rock) 🪨, 1 (paper) 📝, 2 (scissors) ✂️
     
-        3 let Item(rock, paper and scissors)
+    Como usar:
+
+    Xcode ❤️
+
+    1. Abra o Xcode e vá para Source Control -> Clone
+
+    2. Cole o link abaixo e clone este projeto
+        https://github.com/AIWASS23/JOGO.git
     
-        1 let possibleMovies array that receives the 3 let Item
+    3. Execute o arquivo main.swift
+        terminal
 
-        1 boolean var validNumberBetweenZeroAndTwo set to false
-
-    loop: 
-
-        a while with the variable validNumberBetweenZeroAndTwo is used to create the iteration of the game with the user
-
-        the user chooses a number between 0 and 2 associated with a word, and a number associated with the CPU is generated.
+            1. Clonar este projeto
+                git clone https://github.com/AIWASS23/JOGO.git
+            
+            2. Execute usando swift run ou swift build
+                swift run || swift build
+    
 ## Apêndice
 
     https://repositorio.ufu.br/bitstream/123456789/14361/1/JogosDigitaisEstrategia.pdf
