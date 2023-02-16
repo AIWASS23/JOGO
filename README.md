@@ -44,4 +44,4 @@
 
 ## Autores
 
-    - [Marcelo De Araújo](https://www.github.com/AIWASS23)
+    [Marcelo De Araújo](https://www.github.com/AIWASS23)
